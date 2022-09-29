@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Layered Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: da747a8e4c45f354193efb8ee81fbe52, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 407a07a0976ef754b997718f89b54fd4, type: 3}
+  - {fileID: 21300000, guid: c73c94f156ad4ea4bb7a7b76b865065a, type: 3}
+  - {fileID: 21300000, guid: ca577b4280a74be4cbd292e52609f061, type: 3}
+  - {fileID: 21300000, guid: f9259e13d1511ca4f92930b8459ed5c6, type: 3}
+  - {fileID: 21300000, guid: 1e3d4e33060930b4785f8123f9524a32, type: 3}
+  - {fileID: 21300000, guid: 1af64253e97afe84293151e31a3fa9d1, type: 3}
+  - {fileID: 21300000, guid: eea00274f2b824a45a85d42ad5ea6976, type: 3}
+  - {fileID: 21300000, guid: 74fe5405cecbf514c909a1803e33a737, type: 3}
+  - {fileID: 21300000, guid: 8870e90546c110e4e9196a35bdfb9297, type: 3}
+  - {fileID: 21300000, guid: a7f8ce150512f28429cfbe5249376cfc, type: 3}
+  - {fileID: 21300000, guid: 001b86b674ed907408132c424df43d48, type: 3}
+  - {fileID: 21300000, guid: 5bb037d62cfa258488a639c25aec11db, type: 3}
+  - {fileID: 21300000, guid: b0eb5527e7eb055449302e2236e73110, type: 3}
+  - {fileID: 21300000, guid: 9d3fa727150c3f74eba6d57bc59763fa, type: 3}
+  - {fileID: 21300000, guid: c8ff63c83fee8ae499cc64c8a26f685f, type: 3}
+  - {fileID: 21300000, guid: 90f42daabc551494eae07b434d71dfdb, type: 3}
+  - {fileID: 21300000, guid: ef61fc0b935ac5046817058b0f211316, type: 3}
+  - {fileID: 21300000, guid: 803c190cc209b354c9e739ed250741b3, type: 3}
+  - {fileID: 21300000, guid: ebc470ac9bca224408976d58fb613548, type: 3}
+  - {fileID: 21300000, guid: b20f09bc3e6b6714db5f6ab7f203e975, type: 3}
+  - {fileID: 21300000, guid: 5805771dde4bb5d4f9158fe4b6652913, type: 3}
+  - {fileID: 21300000, guid: 20e3f17d7947b4148b711fe026348396, type: 3}
+  - {fileID: 21300000, guid: 1b6ce4ad5e4012b49ad602cfd20bbdb6, type: 3}
+  - {fileID: 21300000, guid: 304326bd28b6daa4d9f62ee9d6976830, type: 3}
+  - {fileID: 21300000, guid: 6597c74e27a184a42b38b01d2bc75769, type: 3}
+  - {fileID: 21300000, guid: 95e0611f509d48c44ab44d493d1950bf, type: 3}
+  - {fileID: 21300000, guid: 121ffd9f91841ec42b0a45dee83b4a95, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - CircleShadow
+  - CornerBlock
+  - SquareGlow
+  - ArrowTriangle
+  - Grid
+  - CircleOutline
+  - TwoStripes
+  - GradientCenterVertical
+  - Circle
+  - GradientHRight
+  - ArrowLine
+  - TriangleCorner
+  - Arrow
+  - GradientHLeft
+  - Orange_Outline
+  - Box
+  - GradientCircle
+  - ArrowTag
+  - GradientVTop
+  - ButtonGlow
+  - RoundGlow
+  - CircleOutline2
+  - GradientV
+  - NewOutline
+  - GradientSides
+  - Corners
+  - GradientCenter
+  m_RenderDataMap: {}
+  m_Tag: Layered Atlas
+  m_IsVariant: 0
