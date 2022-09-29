@@ -4,7 +4,7 @@ using DG.Tweening;
 
 namespace Game.SplashScreen
 {
-	public class SplashScreenFade : ISplashScreenBase
+	public class SplashScreenFade : SplashScreenBase
 	{
 		[Header("Duration")]
 		[Range(0.1f, 1f)]public float fadeDuration = 1f;
@@ -16,6 +16,10 @@ namespace Game.SplashScreen
 		private SplashManager handler = null;
 		private Sequence _sequence = null;
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="Manager"></param>
 		public override void Initialize(SplashManager Manager)
 		{
 			handler = Manager;
@@ -23,18 +27,20 @@ namespace Game.SplashScreen
 			_group = GetComponent<CanvasGroup>();
 		}
 
-		private void OnDisable()
-		{
-			Reset();
-		}
-
-		public override void Reset()
+		/// <summary>
+		/// 
+		/// </summary>
+		public override void ResetUI()
 		{
 			gameObject.SetActiveOptimized(false);
 			_sequence.Kill();
 			_sequence = null;
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="callBack"></param>
 		public override void Play(System.Action callBack)
 		{
 			_sequence = DOTween.Sequence()
@@ -51,6 +57,15 @@ namespace Game.SplashScreen
 					gameObject.SetActiveOptimized(false); 
 					if(callBack != null){ callBack(); }
 				});
+		}
+
+
+		/// <summary>
+		/// 
+		/// </summary>
+		private void OnDisable()
+		{
+			ResetUI();
 		}
 	}
 }

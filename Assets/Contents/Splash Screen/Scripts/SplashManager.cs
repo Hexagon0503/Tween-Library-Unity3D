@@ -12,7 +12,7 @@ namespace Game.SplashScreen
 		public GameObject Root;
 		public GameObject skipIndicator;
 		[Header("Splash List")]
-		public ISplashScreenBase[] splashList;
+		public SplashScreenBase[] splashList;
 		[Header("Events")]
 		public UnityEvent onComplete;
         #endregion
@@ -84,7 +84,7 @@ namespace Game.SplashScreen
 		{
 			if(currentID >= splashList.Length) return;
 			//
-			splashList[currentID].Reset();
+			splashList[currentID].ResetUI();
 			currentID++;
 			if(currentID >= splashList.Length )
 			{
@@ -130,7 +130,7 @@ namespace Game.SplashScreen
 		{
 			for (int i = 0; i < splashList.Length; i++)
 			{
-				splashList[i].Reset();
+				splashList[i].ResetUI();
 			}
 		}
 		
